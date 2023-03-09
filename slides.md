@@ -215,7 +215,7 @@ layout: intro
 </div>
 <div>
 
-<img src="/public/potree.png" class="_img"/>
+<img src="/potree.png" class="_img"/>
 
 </div>
 </div>
@@ -278,7 +278,7 @@ layout: intro
 
 ---
 layout: image-right
-image: 'public/CHAPER1.png'
+image: '/CHAPER1.png'
 ---
 
 # 1 Introduction
@@ -387,7 +387,7 @@ image: 'public/CHAPER1.png'
 
 ---
 layout: image-right
-image: 'public/CHAPER2.png'
+image: '/CHAPER2.png'
 ---
 
 # 2 Data Structure
@@ -429,7 +429,7 @@ class: "text-center"
 
 Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO），该结构由Scheiblauer提出，并内置到Scanopy点云渲染器中.下图显示了一个球形点云，它被划分为一个MNO.
 
-<img src="/public/threepointone.png" />
+<img src="/threepointone.png" />
 
 <BarBottom  title="BodenStudy dyf">
   <Item  text="potree" >
@@ -538,7 +538,7 @@ Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO�
 
 ---
 layout: image-x
-image: 'public/threethreeone.png'
+image: '/threethreeone.png'
 imageOrder: 2
 ---
 
@@ -614,7 +614,7 @@ class: "text-center"
 
 稀疏的距离检查网格.对同一单元内的点和相邻单元内的点都要进行距离检查.(a) 较少的距离检查，但内存占用和处理开销较大.(b) 距离检查的数量较多，但对内存友好.在实际执行中，间距和单元的大小都低于所描述的.
 
-<img  src="/public/threepointfour.png"/>
+<img  src="/threepointfour.png"/>
 
 <BarBottom  title="BodenStudy dyf">
   <Item  text="potree" >
@@ -705,7 +705,7 @@ class: "text-center"
 
 ---
 layout: image-right
-image: 'public/CHAPER3.png'
+image: '/CHAPER3.png'
 ---
 
 # 3 Point Cloud Rendering
@@ -791,7 +791,7 @@ class: "text-center"
 
 Potree中可用属性的例子
 
-<img class="_img" src="/public/fourpointone.png" />
+<img class="_img" src="/fourpointone.png" />
 
 <BarBottom  title="BodenStudy dyf">
   <Item  text="potree" >
@@ -817,7 +817,7 @@ Potree中可用属性的例子
 
 ---
 layout: image-right
-image: 'public/CHAPER4.png'
+image: '/CHAPER4.png'
 ---
 
 # 4 Implementation and Features
