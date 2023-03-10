@@ -21,11 +21,14 @@ Potree---WebGL point cloud viewer for large datasets
       <carbon:logo-github />
     </a>
   </Item>
-    <Item text="dyf">
+  <Item text="dyf">
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -67,7 +70,10 @@ layout: intro
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -87,7 +93,6 @@ WebGL（Web 图形库）是一个 JavaScript API，可在任何兼容的 Web 浏
 
 WebGL 通过引入一个与 OpenGL ES 2.0 非常一致的 API 来做到这一点，该 API 可以在 HTML5 canvas 元素中使用.
 
-这种一致性使 API 可以利用用户设备提供的硬件图形加速.
 </p>
 </div>
 <div>
@@ -121,73 +126,12 @@ gl.canvas; // HTMLCanvasElement
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
-  </Item>
-</BarBottom>
-
-<!-- 
-layout: intro
-
-
-## `<BarBottom />` with custom icons/images
-
-<br />
-<br />
-
-<div class="grid grid-cols-2 gap-x-4">
-<div>
-
-You can use your own icons/images if you want.
-
-Only need to add an `<Item />` component and use `slots` features.
-
-Also， you can use [Windi CSS](https://windicss.org/) to add style to the icon， for example， adjust the width o height.
-
-</div>
-<div>
-
-### Slide example
-
-```markdown
----
-layout: intro
----
-
-# Content
-
-<BarBottom  title="Slidev theme purplin">
-  <Item text="slidevjs/slidev">
-    <carbon:logo-github />
-  </Item>
-  <Item text="Slidevjs">
-    <carbon:logo-twitter />
-  </Item>
-  <Item text="sli.dev">
     <img
       src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
       class="w-4"
     />
   </Item>
 </BarBottom>
-```
-
-</div>
-</div>
-
-<BarBottom  title="Slidev theme purplin">
-  <Item text="slidevjs/slidev">
-    <carbon:logo-github />
-  </Item>
-  <Item text="Slidevjs">
-    <carbon:logo-twitter />
-  </Item>
-  <Item text="sli.dev">
-    <img
-      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
-      class="w-4"
-    />
-  </Item>
-</BarBottom> -->
 
 ---
 layout: intro
@@ -203,15 +147,10 @@ layout: intro
 <p class="text-xl">
 一个基于网络的大型点云的渲染器.它允许用户在标准的网络浏览器中实时查看来自激光雷达或摄影测量等来源的具有数十亿点的数据集.
 
-在网络浏览器中进行点云可视化的主要优势之一是它允许用户与客户分享他们的数据集，而不需要安装第三方应用程序和提前传输大量数据.
+在网络浏览器中进行点云可视化的主要优势之一是它允许用户分享他们的数据集，而不需要安装第三方应用程序和提前传输大量数据.
 
 还允许用户使用Potree来查看、分析和验证原始点云数据.
 </p>
-<!-- <p v-after class="text-xl">
-在网络浏览器中对数十亿个点进行流化和渲染，而不需要提前加载大量的数据，是通过一个分层结构实现的，该结构以不同的分辨率存储原始数据的子样本，低分辨率被存储在在根节点中，每一级的分辨率都会逐渐增加.
-
-该结构允许Potree剔除点云中位于视图范围之外的区域，和以较低的细节水平渲染遥远的区域.
-</p> -->
 </div>
 <div>
 
@@ -232,7 +171,10 @@ layout: intro
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -250,10 +192,6 @@ layout: intro
 -  **简 介** - Potree的由来
 -  **数据结构** - 对所采用的可修改的嵌套八叉树模型的描述，该结构的建立以及它在渲染过程中如何被遍历.
 -  **点云渲染** - 颜色和点尺寸的计算，以及高质量的渲染模式.
--  **实施和特点** - 涵盖了Javascript和WebGL的实现细节.并介绍了Potree的一些功能.
-<!-- - 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF， PNGs， or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage -->
 
 <br>
 <br>
@@ -272,7 +210,10 @@ layout: intro
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -286,7 +227,7 @@ image: '/CHAPER1.png'
 概述
 
 <p>
-  点云是由点组成的三维模型，而不是更广泛使用的三角形模型.
+  点云是由点组成的三维模型.
   
   它们通常是通过各种扫描方法，如激光扫描和摄影测量，获得现实世界的数据.
   
@@ -305,7 +246,10 @@ image: '/CHAPER1.png'
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -343,7 +287,10 @@ image: '/CHAPER1.png'
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -381,7 +328,10 @@ image: '/CHAPER1.png'
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -414,7 +364,10 @@ image: '/CHAPER2.png'
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -443,7 +396,10 @@ Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO�
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -458,7 +414,7 @@ Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO�
     可修改的嵌套八叉树结构在每个节点上存储原始点云的子样本.低层节点包含大体积的稀疏子样本.随着级别提高，节点的尺寸缩小，而点密度增加.原始数据集的每个点都被精确地分配到一个八叉树节点.这意味着没有新的点或重复的点被创建，并且将所有节点中的所有点合并起来，就会返回原始的数据集.
   </p>
   <p>
-    原始的MNO结构通过一个有128的3次方个单元的内嵌式三维网格获得其子样本.最初，点被添加到根节点，一个点将占据它落入的第一个单元.如果一个点落入一个已经被占据的单元，并且该节点的总点数低于一个阈值，那么这个点将被分配到这个节点，但是存储在一个填充数组中，而不是网格中.填充数组保存同一节点中的其他点, 一旦有足够的点落入潜在的新子节点，新的子节点就会被创建.因此，新的子节点立即被填充了最低数量的点.
+    MNO 使用的三维网格被划分为 128^3 个单元。通过原始点云构建 MNO 结构时，点首先被添加到根节点中，并占据其所对应的单元。同时，为了保证新的子节点中包含了足够数量的点，每个网格还设置了一个阈值，用于存储多余的点，当点遇到已被占据的单元并且多余点不超出阈值时，其将被暂放入一个等待数组中，直到等待数组中存放了足够的点并构建出子节点网格。通过这一阈值就可以避免某些子网格中包含点数量过少造成不必要的开销。
   </p>
   <p>
     这种子采样方法导致不同的八叉树级别的点密度不同，而且它也避免了大部分的空节点，因为新的节点只有在新的子节点积累了最低数量的点之后才会被创建.然而，它并不能保证点与点之间有一定的最小距离
@@ -481,7 +437,10 @@ Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO�
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -494,13 +453,16 @@ Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO�
 
 <section>
   <p>
-    Potree使用了MNO结构的一个变种，采用了不同的子采样方法，并将层次结构划分为较小的、可快速流转的块状结构.为了避免与原始的可修改的嵌套八叉树结构相混淆，并且因为Potree不提供修改点云的功能，我们将在本文中把它称为Potree的八叉树结构，或者简称为八叉树.
+    Potree 所采用的数据结构基于 MNO 进行部分修改，其主要的构建算法与 MNO类似，但是针对于其应用的 实际场景渲染中存在的潜在问题进行具体的优化，其主要为两点:
   </p>
   <p>
-    节点的分辨率是由间距属性定义的，它指定了点之间的最小距离.间距最初是根据包围盒的大小为根节点计算的，然后在每一级减半.例如，对于一个每个方向都有200米范围的数据集，可以使用1米的间距.然后，根节点将包含原始数据的低分辨率版本，其中每个点与下一个点至少相隔1米.根节点的子节点将有0.5米的间距，这实际上是将分辨率提高了一倍.
+    MNO 不保证网格单元间点的间隔： MNO 仅仅保证每个点落入其所属的单元中，但是相邻单元间的间隔距离可能很短，这会对下采样样本的质量造成影响；
   </p>
   <p>
-    不同的间隔值会影响节点中的点的数量、存储所有点所需的节点数量以及树的深度.较小的间距会导致每个节点中的点数增加，总体上节点的数量减少，树的深度变浅.间隔的最佳值很难定义，取决于各种因素，如CPU和GPU的处理能力和连接速度. 
+    MNO 将层级结构索引保存在单一文件中：当处理的点云过于庞大时，其所生成的索引文件大小也将膨胀，例如 AHN2 的点云中包含 640 billion 个点，处理后具有 13 层八叉树以及 38 million 个文件，仅仅是索引文件就超过 190 MB。
+  </p>
+  <p>
+  节点的分辨率是由间距属性定义的，它指定了点与点之间的最小距离.不同的间隔值会影响节点中的点的数量、存储所有点所需的节点数量以及树的深度。较小的间距会导致每个节点中的点数增加，总体上节点的数量减少，树的深度变浅。间隔的最佳值很难定义，它取决于各种因素，例如CPU和GPU的处理能力和连接速度.
   </p>
 </section>
 
@@ -517,7 +479,10 @@ Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO�
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -530,11 +495,11 @@ Potree的结构是基于一个稍作调整的可修改的嵌套八叉树（MNO�
 | 低间距 | 高间距 |
 | • 每个节点上有更多的点  |  • 每个节点的点数较少 |
 | • 总的来说节点较少 | • 整体上更多的节点 |
-| + 更快的八叉树遍历 | + 更精细的空间划分允许剔除更多的点 |
-| + 更少的绘制调用和GPU状态变化 | + 单个节点可以快速下载 |
-| + 减少了与每个文件下载相关的开销 | - 更慢的八叉树遍历 |
-| - 由于更粗略的空间划分而导致低效的剔除 | - 更多的绘图调用和GPU状态变化 |
-| - 每个节点需要更长的时间来下载 | - 必须加载许多小文件 |
+| + 更快的八叉树遍历 | - 更慢的八叉树遍历 |
+| + 更少的绘制调用和GPU状态变化 | - 更多的绘图调用和GPU状态变化 |
+| + 减少了与每个文件下载相关的开销 | - 必须加载许多小文件 |
+| - 由于更粗略的空间划分而导致低效的剔除 | + 更精细的空间划分允许剔除更多的点 |
+| - 每个节点需要更长的时间来下载 | + 单个节点可以快速下载 |
 
 ---
 layout: image-x
@@ -564,7 +529,10 @@ imageOrder: 2
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -576,10 +544,10 @@ imageOrder: 2
 
 <section>
   <p>
-    在泊松-磁盘样本中，每个点与所有其他点的距离都是最小的.由此产生的数据显示视觉上比网格采样集更悦目，而且它还提供了极好的覆盖率，并且只需少量的点.执行严格的点与点之间的最小距离，然而在计算上是一项昂贵的任务，需要更复杂的数据结构.为了减少点与点之间的距离检查量，我们将每个节点划分为一个网格，只计算相同和相邻单元内的点的距离
+    在泊松盘样本中，每个点与所有其他点的距离都是最小的.由此产生的数据显示视觉上比网格采样集更悦目，而且它还提供了极好的覆盖率，并且只需少量的点.执行严格的点与点之间的最小距离，然而在计算上是一项昂贵的任务，需要更复杂的数据结构.为了减少点与点之间的距离检查量，我们将每个节点划分为一个网格，只计算相同和相邻单元内的点的距离
   </p>
   <p>
-    每个单元存储被接受的点以及对相邻单元的引用，以便快速迭代相邻的点，而不需要相对昂贵的哈希图访问.如果一个单元内的所有点和相邻单元内的所有点的最小距离大于间距，则该单元接受新点.当一个新添加的点第一次落入单元格时，单元格实例就被创建.在单元格的创建过程中，相邻的空间会被检查是否已经存在邻居.如果有邻居存在，它将被添加到新单元格的邻居列表中，新创建的单元格也将被添加到邻居列表中.
+    每个单元存储被接受的点以及对相邻单元的引用，以便快速迭代相邻的点.如果一个单元内的所有点和相邻单元内的所有点的最小距离大于间距，则该单元接受新点.当一个新添加的点第一次落入单元格时，单元格实例就被创建.在单元格的创建过程中，相邻的空间会被检查是否已经存在邻居.如果有邻居存在，它将被添加到新单元格的邻居列表中，新创建的单元格也将被添加到邻居列表中.
   </p>
   <p>
     单元的大小可以是间距和节点本身的大小之间的任何数值.最初，间距本身被选为单元格大小，以使距离检查的数量尽可能地少.Yin Fei发现这导致了不必要的高内存使用和低性能，并建议使用更大的单元格尺寸来代替.增加网格单元的大小可以减少单元的数量，同时也减少了内存的使用以及管理众多单元实例的处理开销.
@@ -599,7 +567,10 @@ imageOrder: 2
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -628,7 +599,10 @@ class: "text-center"
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -640,12 +614,12 @@ class: "text-center"
 
 <v-clicks>
 
-- 1 ⇢ 最初，八叉树由一个根节点组成，它在此时也是一个叶子点.
+- 1 ⇢ 最初，八叉树由一个根节点组成.
 - 2 ⇢ 点被逐一添加到根节点.
 - 3 ⇢ 如果在最小距离(间距)内没有其他点，则内部节点保留一个点否则就把它传给它的子代.
 - 4 ⇢ 每一级的间距都减半
 - 5 ⇢ 叶子节点首先保留所有点.
-- 6 ⇢ 如果达到一定的点数阈值，一个叶子节点就会被展开.它成为一个内部节点，并将所有存储的点添加到自己身上，但这次是按照 内部节点的规则.具有一定最小距离的点保留在前一个叶子节点中，所有其他的点都被传递到它新创建的子节点中.
+- 6 ⇢ 如果达到一定的点数阈值，一个叶子节点就会被展开.它成为一个内部节点，并将所有存储的点添加到自己身上，但这次是按照内部节点的规则.具有一定最小距离的点保留在前一个叶子节点中，所有其他的点都被传递到它新创建的子节点中.
 - 7 ⇢ 数据定期刷新到磁盘，例如每次处理1000万个点.
 - 8 ⇢ 如果一个节点在上一次刷新后没有被碰过，它的数据将在下一次刷新时被从内存中删除.
 - 9 ⇢ 如果一个点即将被添加到一个已经从内存中移除的节点上，数据将首先从磁盘读回内存.
@@ -664,7 +638,10 @@ class: "text-center"
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -699,7 +676,10 @@ class: "text-center"
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -728,7 +708,10 @@ image: '/CHAPER3.png'
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -778,7 +761,10 @@ image: '/CHAPER3.png'
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -805,7 +791,10 @@ Potree中可用属性的例子
     <carbon:logo-twitter />
   </Item>
   <Item text="sli.dev">
-    <carbon:link />
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 
@@ -814,112 +803,3 @@ Potree中可用属性的例子
     width: 75%;
   }
 </style>
-
----
-layout: image-right
-image: '/CHAPER4.png'
----
-
-# 4 Implementation and Features
-
-概述
-
-<p>
-  Potree查看器的实现细节和功能
-</p>
-
-<BarBottom  title="BodenStudy dyf">
-  <Item  text="potree" >
-    <a href="https://github.com/potree/potree" target="_blank" alt="GitHub"
-      class="!border-none"
-    >
-      <carbon:logo-github />
-    </a>
-  </Item>
-    <Item text="dyf">
-    <carbon:logo-twitter />
-  </Item>
-  <Item text="sli.dev">
-    <carbon:link />
-  </Item>
-</BarBottom>
-
----
-
-# Potree.js
-
-<br />
-
-```js
-// Load and add point cloud to scene
-  Potree.loadPointCloud("boden/pointcloud/cloud.js", "MLS", e => {
-    let scene = viewer.scene;
-    let pointcloud = e.pointcloud;
-    
-    let material = pointcloud.material;
-    material.size = 0.5;
-    material.minSize = 2.0;
-    material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
-    material.shape = Potree.PointShape.SQUARE;
-    material.activeAttributeName = "rgba";
-    
-    scene.addPointCloud(pointcloud);
-  });
-```
-<BarBottom  title="BodenStudy dyf">
-  <Item  text="potree" >
-    <a href="https://github.com/potree/potree" target="_blank" alt="GitHub"
-      class="!border-none"
-    >
-      <carbon:logo-github />
-    </a>
-  </Item>
-    <Item text="dyf">
-    <carbon:logo-twitter />
-  </Item>
-  <Item text="sli.dev">
-    <carbon:link />
-  </Item>
-</BarBottom>
-
-<!-- ---
-
-# function loadPointCloud
-
-```js {all|10-14}
-export function loadPointCloud(path, name, callback){
-	let loaded = function(e){
-		e.pointcloud.name = name;
-		callback(e);
-	};
-
-	let promise = new Promise( resolve => {
-
-		// load pointcloud
-    POCLoader.load(path, function (geometry) {
-      let pointcloud = new PointCloudOctree(geometry);
-      // loaded(pointcloud);
-      resolve({type: 'pointcloud_loaded', pointcloud: pointcloud});
-    });
-	});
-
-  promise.then(pointcloud => {
-    loaded(pointcloud);
-  });
-};
-```
-<BarBottom  title="BodenStudy dyf">
-  <Item  text="potree" >
-    <a href="https://github.com/potree/potree" target="_blank" alt="GitHub"
-      class="!border-none"
-    >
-      <carbon:logo-github />
-    </a>
-  </Item>
-    <Item text="dyf">
-    <carbon:logo-twitter />
-  </Item>
-  <Item text="sli.dev">
-    <carbon:link />
-  </Item>
-</BarBottom> -->
